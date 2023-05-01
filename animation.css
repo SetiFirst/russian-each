@@ -1,0 +1,13 @@
+.goLeft{
+	transform: translateX(-660px);
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}
+
+.goRight{
+	transform: translateX(660px);
+	transition-property: transform;
+	transition-duration: 0.5s;
+	transition-timing-function: linear;
+}

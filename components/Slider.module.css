@@ -1,0 +1,47 @@
+.slider{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	overflow: hidden;
+}
+
+.slider>div{
+	position: absolute;
+}
+
+.leftButton{
+	position: absolute;
+	z-index: 100;
+	left: 0;
+	height: 100%;
+	width: 100px;
+	background-image: url("./Line\ 1.svg");
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.rightButton{
+	position: absolute;
+	z-index: 100;
+	left: 560px;
+	height: 100%;
+	width: 100px;
+	background-image: url("./Line\ 2.svg");
+	background-color: transparent;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none;
+	cursor: pointer;
+}
+
+.row{
+	position: relative;
+	display: flex;
+	flex-direction: row;
+}
+

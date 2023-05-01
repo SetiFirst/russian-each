@@ -1,0 +1,20 @@
+.popUp{
+	display: flex;
+
+	width: 100vw;
+	height: 100vh;
+	background-color: #141414;
+	position: absolute;
+	z-index: 20000;
+	
+}
+
+body{
+	overflow: hidden;
+}
+
+.popUp_block{
+	width: 500px;
+	height: 500px;
+	background-color: black;
+}

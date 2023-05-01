@@ -1,0 +1,12 @@
+body{
+	margin: 0;
+	background-color: #141414
+}
+*{
+	box-sizing: border-box;
+}
+
+.App{
+	max-width: 1010px;
+	margin: 0 auto;
+}

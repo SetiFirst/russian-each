@@ -1,0 +1,42 @@
+.footer{
+	display: grid;
+	width: 1010px;
+	grid-template-columns: 1.5fr 1.5fr 1.5fr;
+	background-color: #1E1C1C;
+	height: 225px;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 32px;
+}
+
+.el{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+	
+}
+
+.support::before{
+	content: url("./Line\ 3.svg");
+	padding-right: 3px;
+}
+
+.communication::before{
+	content: url("./Line\ 4.svg");
+	padding-right: 4px;
+	padding-top: 4px;
+}
+
+.forum::before{
+	content: url("./discord-svgrepo-com.svg");
+	width: 32px;
+	padding-right: 13px;
+	padding-top: 8px;
+}
+
+.el.forum{
+	justify-content: start;
+	margin-left: 50px;
+}
